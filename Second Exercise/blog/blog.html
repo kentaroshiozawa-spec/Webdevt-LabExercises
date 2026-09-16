@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Dev Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <nav>
+        <a href="#blog-header">Home</a>
+        <a href="#blog">Articles</a>
+        <a href="#category">Categories</a>
+        <a href="#about">About</a>
+    </nav>
+    
+</head>
+
+<body>
+    
+    <header id="blog-header">
+        <h1>Web Dev Blog</h1>
+        <p>Learning Web Development One Article at a Time</p>
+    </header>
+
+    <!-- <header id="blog-header">
+        <div class="logo">
+            Web Dev Blog
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Articles</a>
+            <a href="#">About</a>
+        </nav>
+    </header> -->
+
+    <main id="blog">
+
+        <!-- ARTICLE 1 -->
+        <article class="article" data-author="Alex" data-category="HTML">
+
+            <header>
+                <h2>Understanding the Structure of HTML</h2>
+
+                <p>
+                    By <span class="author">Alex</span>
+                </p>
+
+                <p>
+                    Category:
+                    <span class="category">HTML</span>
+                </p>
+            </header>
+            <img class="article-image" src="HTMLlogo.png" alt="Image of an HTML Logo">
+            <p>
+                HTML is the language used to give a webpage its structure.
+                It tells the browser what different pieces of content mean.
+            </p>
+
+            <p>
+                Headings, paragraphs, links, images, lists, forms, and other
+                elements all have specific purposes in an HTML document.
+            </p>
+
+            <p>
+                Learning HTML starts with understanding how elements are
+                organized and how they work together to form a complete page.
+            </p>
+
+            <p>
+                Once the structure is clear, CSS can be added to control
+                how those elements look and how the page is presented.
+            </p>
+
+            <footer>
+                <p>
+                    Tags:
+                    <span class="tag">html</span>
+                    <span class="tag">web</span>
+                    <span class="tag">beginner</span>
+                    <span class="tag">structure</span>
+                </p>
+            </footer>
+
+        </article>
+        <button id="read-more-1" type="button"> Read More </button>
+        <form id="comment-form-1">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment"></textarea>
+            <button type="submit">
+                Post Comment
+            </button>
+            <label for="topic">Article Topic:</label>
+            <select id="topic1" name="topic">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">JavaScript</option>
+                <option value="git">Git</option>
+            </select>
+        </form>
+
+        <!-- ARTICLE 2 -->
+        <article class="article" data-author="Jamie" data-category="CSS">
+
+            <header>
+                <h2>What CSS Actually Does</h2>
+
+                <p>
+                    By <span class="author">Jamie</span>
+                </p>
+
+                <p>
+                    Category:
+                    <span class="category">CSS</span>
+                </p>
+            </header>
+
+            <p>
+                CSS stands for Cascading Style Sheets and is used to control
+                the visual presentation of HTML elements.
+            </p>
+
+            <p>
+                With CSS, developers can change colors, fonts, spacing,
+                borders, backgrounds, and the overall appearance of a page.
+            </p>
+
+            <p>
+                CSS also provides tools for creating layouts that can
+                respond to different screen sizes and devices.
+            </p>
+
+            <p>
+                Understanding selectors, properties, and values is one of
+                the first important steps toward becoming comfortable with CSS.
+            </p>
+
+            <footer>
+                <p>
+                    Tags:
+                    <span class="tag">css</span>
+                    <span class="tag">styling</span>
+                    <span class="tag">design</span>
+                    <span class="tag">web</span>
+                    <span class="tag">beginner</span>
+                </p>
+            </footer>
+
+        </article>
+        <button id="read-more-2" type="button"> Read More </button>
+        <form id="comment-form-2">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment"></textarea>
+            <button type="submit">
+                Post Comment
+            </button>
+            <label for="topic">Article Topic:</label>
+            <select id="topic2" name="topic">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">JavaScript</option>
+                <option value="git">Git</option>
+            </select>
+        </form>
+
+        <!-- ARTICLE 3 -->
+        <article class="article" data-author="Alex" data-category="JavaScript">
+
+            <header>
+                <h2>Adding Behavior with JavaScript</h2>
+
+                <p>
+                    By <span class="author">Alex</span>
+                </p>
+
+                <p>
+                    Category:
+                    <span class="category">JavaScript</span>
+                </p>
+            </header>
+
+            <p>
+                JavaScript allows webpages to respond to user actions and
+                perform tasks beyond displaying static content.
+            </p>
+
+            <p>
+                Buttons, menus, forms, animations, and interactive components
+                can all be controlled using JavaScript.
+            </p>
+
+            <p>
+                JavaScript can also communicate with servers and work with
+                data without requiring an entirely new webpage to load.
+            </p>
+
+            <p>
+                HTML provides the structure, CSS provides the presentation,
+                and JavaScript adds behavior and interaction.
+            </p>
+
+            <footer>
+                <p>
+                    Tags:
+                    <span class="tag">javascript</span>
+                    <span class="tag">programming</span>
+                    <span class="tag">interaction</span>
+                    <span class="tag">web</span>
+                </p>
+            </footer>
+
+        </article>
+        <button id="read-more-3" type="button"> Read More </button>
+        <form id="comment-form-3">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment"></textarea>
+            <button type="submit">
+                Post Comment
+            </button>
+            <label for="topic">Article Topic:</label>
+            <select id="topic3" name="topic">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">JavaScript</option>
+                <option value="git">Git</option>
+            </select>
+        </form>
+
+        <!-- ARTICLE 4 -->
+        <article class="article" data-author="Jamie" data-category="Git">
+
+            <header>
+                <h2>Why Developers Use Git</h2>
+
+                <p>
+                    By <span class="author">Jamie</span>
+                </p>
+
+                <p>
+                    Category:
+                    <span class="category">Git</span>
+                </p>
+            </header>
+
+            <p>
+                Git is a version control system that allows developers to
+                keep track of changes made to their projects.
+            </p>
+
+            <p>
+                Instead of manually creating multiple copies of a project,
+                developers can use commits to record important changes.
+            </p>
+
+            <p>
+                Git also makes it easier for multiple developers to work
+                together on the same project.
+            </p>
+
+            <p>
+                Platforms such as GitHub can be used to store repositories
+                online and collaborate with other developers.
+            </p>
+
+            <footer>
+                <p>
+                    Tags:
+                    <span class="tag">git</span>
+                    <span class="tag">github</span>
+                    <span class="tag">version-control</span>
+                    <span class="tag">collaboration</span>
+                </p>
+            </footer>
+
+        </article>
+        <button id="read-more-4" type="button"> Read More </button>
+        <form id="comment-form-4">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment"></textarea>
+            <button type="submit">
+                Post Comment
+            </button>
+            <label for="topic">Article Topic:</label>
+            <select id="topic4" name="topic">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">JavaScript</option>
+                <option value="git">Git</option>
+            </select>
+        </form>
+
+        <!-- ARTICLE 5 -->
+        <article class="article" data-author="Alex" data-category="Responsive Web">
+
+            <header>
+                <h2>Designing for Different Screen Sizes</h2>
+
+                <p>
+                    By <span class="author">Alex</span>
+                </p>
+
+                <p>
+                    Category:
+                    <span class="category">Responsive Web</span>
+                </p>
+            </header>
+
+            <p>
+                People access websites using phones, tablets, laptops,
+                desktops, and many other devices.
+            </p>
+
+            <p>
+                A responsive website adjusts its layout and presentation
+                based on the available screen size.
+            </p>
+
+            <p>
+                CSS media queries allow developers to apply different styles
+                depending on conditions such as the width of the screen.
+            </p>
+
+            <p>
+                Responsive design helps make websites easier to use regardless
+                of the device being used to access them.
+            </p>
+
+            <footer>
+                <p>
+                    Tags:
+                    <span class="tag">responsive</span>
+                    <span class="tag">mobile</span>
+                    <span class="tag">css</span>
+                    <span class="tag">design</span>
+                    <span class="tag">media-query</span>
+                </p>
+            </footer>
+
+        </article>
+        <button id="read-more-5" type="button"> Read More </button>
+        <form id="comment-form-5">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment"></textarea>
+            <button type="submit">
+                Post Comment
+            </button>
+            <label for="topic">Article Topic:</label>
+            <select id="topic5" name="topic">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">JavaScript</option>
+                <option value="git">Git</option>
+            </select>
+        </form>
+        
+    </main>
+    <aside id="sidebar">
+        <h2>About the Blog</h2>
+        <p>
+            A blog about learning web development.
+        </p>
+        <h3>Popular Tags</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+        </ul>
+    </aside>
+    <footer>
+        <p>&copy; 2026 Web Dev Blog</p>
+    </footer>
+
+</body>
+
+</html>

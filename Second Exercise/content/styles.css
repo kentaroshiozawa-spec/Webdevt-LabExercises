@@ -1,0 +1,63 @@
+#blog-header{
+    display:flex;
+    justify-content:space-between;
+}
+
+#blog-header nav{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    gap:20px;
+}
+.logo{
+    /* display:flex; */
+    justify-content:flex-start;
+}
+
+nav{
+    display:flex;
+    flex-direction:column;
+}
+
+/* #blog-header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+#blog {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.article {
+    background-color: #f5f5f5;
+    padding: 25px;
+    margin: 20px 0;
+    border: 2px solid #2e7d32;
+    border-radius: 10px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #2e7d32;
+    color: white;
+    padding: 5px 10px;
+    margin: 3px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.article[data-author="Alex"] {
+    border-left: 6px solid #1b5e20;
+}
+
+.article:nth-child(odd) {
+    font-family: Arial, sans-serif;
+}
+
+.article:nth-child(even) {
+    font-family: Verdana, sans-serif;
+} */
