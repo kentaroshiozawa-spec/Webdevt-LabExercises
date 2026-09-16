@@ -9,15 +9,36 @@
     align-items:center;
     gap:20px;
 }
-.logo{
+.logo{ 
     /* display:flex; */
     justify-content:flex-start;
 }
 
 nav{
     display:flex;
-    flex-direction:column;
+    /* flex-direction:column; */
 }
+
+/* #blog{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+} */
+
+#blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.page-layout{
+    display:grid;
+    grid-template-columns: 1fr 300px;
+    gap: 30px;
+}
+
+
+
 
 /* #blog-header {
     background-color: #2e7d32;
