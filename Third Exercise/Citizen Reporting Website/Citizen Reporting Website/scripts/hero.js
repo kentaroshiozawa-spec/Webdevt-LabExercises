@@ -33,7 +33,17 @@ heroes.forEach((hero) => {
 // const change = document.querySelector(".btn-primary");
 // change.textContent = "Click me";
 
-const heading = document.querySelector("h1");
-heading.style.color = "pink";
-heading.style.fontSize = "40px";
-heading.style.textDecoration = "underline";
+// const heading = document.querySelector("h1");
+// heading.style.color = "pink";
+// heading.style.fontSize = "40px";
+// heading.style.textDecoration = "underline";
+
+const volunteerButton = document.querySelector("#volunteer-button");
+volunteerButton.addEventListener("click", () => {
+  alert("Volunteer registration will be available soon.");
+});
+
+// volunteerButton.addEventListener("click", function(event){
+//   event.preventDefault();
+//   console.log("Form handled by JavaScript");
+// });
