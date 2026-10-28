@@ -43,3 +43,4 @@ volunteerButton.addEventListener("click", () => {
   volunteerFeedback.textContent = "Volunteer registration will be available soon.";
   volunteerFeedback.hidden = false;
 });
+
